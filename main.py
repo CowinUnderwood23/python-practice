@@ -5,7 +5,7 @@ print ("popcorn")
 print ("brats")
 
 #print third food
-print ("cheeseburgers")
+print ("cheeseburger")
 
 #print fourth food
 print("ice cream")
