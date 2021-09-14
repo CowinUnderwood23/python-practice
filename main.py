@@ -11,4 +11,4 @@ print ("cheeseburger")
 print("ice cream")
 
 #print fifth food
-print ("chickens")
+print ("chicken")
