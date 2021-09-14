@@ -1,14 +1,18 @@
-#print first food
-print ("popcorn")
+#define function
+def topFiveMovies():
+    #print first movie
+    print ("13 hours")
+     
+    #print second movie
+    print ("fast and furious")
+    
+    #print third movie
+    print ("hangover")
 
-#print second food
-print ("brats")
+    #print fourth movie
+    print ("bye bye man")
 
-#print third food
-print ("cheeseburger")
+    #print fifth movie
+    print ("step brothers")
 
-#print fourth food
-print("ice cream")
-
-#print fifth food
-print ("chicken")
+topFiveMovies()
