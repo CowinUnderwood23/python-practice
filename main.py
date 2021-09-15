@@ -51,3 +51,25 @@ def topThreeCandies():
     print("3 musketeers")
 topThreeCandies()
 
+print("--------------------")
+
+#integers dont need quotations
+#you can do math 
+print(100 + 65)
+print(77 * 55)
+print(76 / 44)
+print(69 // 5)
+print("100" + "100")
+print("cat" + "dog")
+print("cat" * 10)
+
+print("--------------------")
+
+#giving our function a paramater and a variable
+
+def myNameIs(turtle):
+    print(turtle + " is my name")
+
+myNameIs("cowin")
+myNameIs("alex")
+
