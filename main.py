@@ -1,3 +1,5 @@
+print("-top five movies")
+
 #define function
 def topFiveMovies():
     #print first movie
@@ -14,18 +16,14 @@ def topFiveMovies():
 
     #print fifth movie
     print ("step brothers")
+topFiveMovies()
 
-print("-top five movies")
+print("-top three sports")
 
 def topThreeSports():
     print("hockey")
     print("football")
     print("basketball")
-
-topFiveMovies()
-
-print("-top three sports")
-
 topThreeSports()
 
 print("-family members")
