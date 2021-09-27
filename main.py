@@ -53,3 +53,92 @@ def potato(x, y):
 
 print(potato(5, 1))
 
+
+if "cat" < "dog":
+    print("wow I can't believe this worked")
+
+else:
+    print("wow I still can't believe this worked")
+
+def login(password):
+    if password == "OsowskiR00lz":
+        return "access granted"
+
+    else:
+        return "access denied"
+
+print(login("OsowskiR00lz"))
+
+
+
+
+def trivia(answer):
+    if answer.lower() == "gerald":
+        return "bingo"
+    
+    
+
+    else:
+        "git good lol"
+
+print(trivia("GerAld"))
+
+print("gerald".upper())
+
+def fiveSauces(sauce):
+    
+    sauce = sauce.lower()    
+    
+    if sauce == "tomato":
+        return "Bingo!"
+
+    elif sauce == "mayonaise":
+        return "Bingo!"
+    
+    elif sauce == "bechemel":
+        return "Bingo!"
+
+    elif sauce == "espagnole":
+        return "Bingo!"
+
+    else:
+        return "uncultured swine"
+
+print(fiveSauces("Tomato"))
+
+def define(word):
+    word = word.lower()
+    if word == "snake":
+        return "snake: a long, slithery creature"
+
+    elif word == "jungle":
+        return "a place that is hot with a lot of trees"
+
+    elif word == "car":
+        return "car: a moving vehicle that has 4 wheels"
+
+    elif word == "donut":
+        return "donut: a very good circular food"
+
+    elif word == "grass":
+        return "grass: green stuff that is on the ground"
+
+    elif word == "wow":
+        return "wow: something you say when you are amazed"
+
+    elif word == "pencil":
+        return "pencil: a thing you write with"
+
+    elif word == "run":
+        return "run: a way for humans to move faster than walking"
+
+    elif word == "jump":
+        return "jump: a way for humans to get off the ground"
+
+    elif word == "game":
+        return "game: fun things humans play"
+
+    else:
+        return "that word is not reconised in this dictionary"
+
+print(define("JUmp"))
