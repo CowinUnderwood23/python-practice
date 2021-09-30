@@ -141,4 +141,45 @@ def define(word):
     else:
         return "that word is not reconised in this dictionary"
 
-print(define("JUmp"))
+print(define("Grass"))
+
+
+def toTen():
+    
+    x = 1
+    y = 1
+    
+
+    while x <= 10:
+        while y<= 10:
+            print(y)
+            y = y + 1
+
+
+        y = 1
+        x = x + 1
+
+
+
+
+def evenorodd():
+
+    x = 1
+
+    while x <= 20:
+    
+        print (x)
+        
+        
+        if x % 2 == 0:
+            print("even")
+            
+
+    
+        else:
+            print("odd")
+            
+        x = x + 1
+
+
+evenorodd()
