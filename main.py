@@ -180,6 +180,22 @@ def evenorodd():
             print("odd")
             
         x = x + 1
-
+       
 
 evenorodd()
+
+
+
+
+
+
+def spellingBee(w):
+    x = 0
+    while len(w) > x:
+      
+        print (w[x])
+
+        x = x + 1
+
+spellingBee("house")
+
